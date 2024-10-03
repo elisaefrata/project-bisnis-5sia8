@@ -1,0 +1,56 @@
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ai-center {
+  align-items: center;
+}
+.jc-center {
+  justify-content: center;
+}
+.jc-sb {
+  justify-content: space-between;
+}
+//navigation
+.nav-space {
+  margin: 0 1.5%;
+}
+.nav-brand {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  h1 {
+    a {
+      text-decoration: none;
+      color: orange;
+    }
+  }
+}
+.nav-contact {
+  a {
+    text-decoration: none;
+  }
+}
+.buton {
+  border-radius: 20px;
+  padding: 10px 40px;
+  color: white;
+}
+
+//making grid sytem
+@for $i from 1 through 12 {
+  .col#{$i} {
+    width: (100%/ (12 / $i)) - 2%;
+    margin: 1.5%;
+  }
+}
+.img-responsive {
+  width: 100%;
+}
+body {
+  background-color: rgb(245, 255, 252);
+  justify-content: center;
+}

@@ -1,0 +1,124 @@
+.container {
+  max-width: 1200px;
+  width: 130%;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.nav-space {
+  margin: 0 1.5%;
+}
+
+.nav-brand {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav-brand h1 a {
+  text-decoration: none;
+  color: orange;
+}
+
+.nav-contact a {
+  text-decoration: none;
+}
+
+.buton {
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+  background: black;
+  border-radius: 40px;
+  padding: 10px 40px;
+  color: white;
+}
+
+.col1 {
+  width: 6.3333333333%;
+  margin: 1.5%;
+}
+
+.col2 {
+  width: 14.6666666667%;
+  margin: 1.5%;
+}
+
+.col3 {
+  width: 23%;
+  margin: 1.5%;
+}
+
+.col4 {
+  width: 31.3333333333%;
+  margin: 1.5%;
+}
+
+.col5 {
+  width: 39.6666666667%;
+  margin: 1.5%;
+}
+
+.col6 {
+  width: 48%;
+  margin: 1.5%;
+}
+
+.col7 {
+  width: 56.3333333333%;
+  margin: 1.5%;
+}
+
+.col8 {
+  width: 64.6666666667%;
+  margin: 1.5%;
+}
+
+.col9 {
+  width: 73%;
+  margin: 1.5%;
+}
+
+.col10 {
+  width: 81.3333333333%;
+  margin: 1.5%;
+}
+
+.col11 {
+  width: 89.6666666667%;
+  margin: 1.5%;
+}
+
+.col12 {
+  width: 98%;
+  margin: 1.5%;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+body {
+  background-color: rgb(241, 250, 247);
+  justify-content: center;
+} /*# sourceMappingURL=style.css.map */
+
+.tex {
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+  font-weight: bold;
+}
